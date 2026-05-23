@@ -544,10 +544,5 @@ Systems Plus Computer College
             return False, message
             
     except Exception as e:
-        logger.error("="*60)
         logger.error("ERROR IN send_reservation_confirmation_email")
-        logger.error(f"Error type: {type(e).__name__}")
-        logger.error(f"Error message: {str(e)}")
-        logger.error(f"Traceback:\n{traceback.format_exc()}")
-        logger.error("="*60)
         return False, f"Error: {str(e)}"
