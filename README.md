@@ -8,9 +8,9 @@
 ##### Navigate to root/backend
 
 ## Technologies used
-<p align="center">
+<p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,javascript,html,css,git,postgresql" />
+    <img src="https://skillicons.dev/icons?i=javascript, react, html, scss, git,postgresql, python, django" />
   </a>
 </p>
 Notes
