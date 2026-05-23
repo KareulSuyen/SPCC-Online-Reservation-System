@@ -22,7 +22,7 @@ Follow these steps to clone the repository and run it locally.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/KareulSuyen/SPCC-Online-Reservation-System](https://github.com/KareulSuyen/SPCC-Online-Reservation-System)
+git clone https://github.com/KareulSuyen/SPCC-Online-Reservation-System
 cd SPCC-Online-Reservation-System
 ```
 
