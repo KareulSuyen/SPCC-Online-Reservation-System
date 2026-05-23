@@ -21,14 +21,14 @@ class AccountsConfig(AppConfig):
                 'check', 'compilemessages', 'makemessages'
             ]
             if command in skip_commands:
-                logger.info(f"[ACCOUNTS APP] Skipping self-ping during '{command}' command")
+                logger.info(f"Skip on '{command}' command")
                 return
         
         try:
             from .self_ping import start_keep_alive
             start_keep_alive()
-            logger.info("[ACCOUNTS APP] Self-ping keep-alive initialized")
+            logger.info("self ping initialized" )
         except Exception as e:
-            logger.error(f"[ACCOUNTS APP] Failed to start self-ping: {str(e)}")
+            logger.error(f"self ping failed to start: {str(e)}")
             import traceback
             logger.error(traceback.format_exc())
