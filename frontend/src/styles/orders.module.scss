@@ -1,0 +1,832 @@
+.container {
+  padding: 1rem;
+  background-color: var(--body-bg);
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+
+  h1 {
+    font-size: 1.75rem;
+    color: var(--text-primary);
+    margin: 0 0 0.5rem 0;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+
+  .subtitle {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.schoolStatus {
+  margin-top: 17px;
+  background: var(--order-bg);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.statusLoading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  gap: 1rem;
+  color: var(--text-secondary);
+
+  p {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--border-color);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.statusHeader {
+  display: flex;
+  gap: 0.875rem;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.statusIconWrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.statusIcon {
+  svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 2.5;
+  }
+}
+
+.statusInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.statusLabel {
+  margin: 0 0 0.25rem 0;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--order-primary);
+  letter-spacing: -0.3px;
+}
+
+.statusMessage {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--order-secondary);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.statusFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--order-secondary);
+}
+
+.statusTimestamp {
+  font-size: 0.6875rem;
+  color: var(--order-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.weatherInfo {
+  padding: 0.875rem 0 0 0;
+  border-top: 1px solid var(--order-secondary);
+}
+
+.weatherMain {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.weatherIcon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.weatherDetails {
+  flex: 1;
+  min-width: 0;
+}
+
+.temperature {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--schooldeg-primary);
+  letter-spacing: -0.5px;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.weatherDescription {
+  font-size: 0.8125rem;
+  color: var(--order-primary);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.weatherStats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.weatherStat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--order-primary);
+  font-weight: 500;
+  padding-bottom: 15px;
+
+  svg {
+    width: 14px;
+    height: 14px;
+    stroke-width: 2;
+    flex-shrink: 0;
+  }
+}
+
+.refreshBtn {
+  padding: 0.375rem;
+  background-color: var(--body-bg);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 14px;
+    height: 14px;
+    stroke-width: 2;
+  }
+
+  &:hover:not(:disabled) {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &:active:not(:disabled) {
+    transform: scale(0.95);
+  }
+}
+
+.ordersList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.orderCard {
+  background: var(--order-bg);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: gray;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  padding-bottom: 0.875rem;
+  border-bottom: 1px solid var(--border-color);
+  gap: 0.75rem;
+}
+
+.orderInfo {
+  flex: 1;
+  min-width: 0;
+
+  h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 0.9375rem;
+    color: var(--order-primary);
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+}
+
+.itemSize {
+  color: white;
+}
+.orderDate {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--order-primary);
+  font-weight: 500;
+}
+
+.statusBadge {
+  padding: 0.375rem 0.75rem;
+  color: white;
+  border-radius: 16px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.orderItems {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin-bottom: 0.875rem;
+}
+
+.orderItem {
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  gap: 0.75rem;
+  padding: 0.625rem;
+  background-color: var(--order-itemBg);
+  border-radius: 6px;
+  align-items: center;
+}
+
+.itemImage {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+
+.itemIcon {
+  width: 42px;
+  height: 42px;
+  background-color: var(--item-bgcolor);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  svg {
+    width: 25px;
+    height: 25px;
+    color: white;
+    stroke-width: 2.5;
+  }
+}
+
+.itemDetails {
+  min-width: 0;
+}
+
+.itemName {
+  margin: 0 0 0.1875rem 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgb(242, 242, 242);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+}
+
+.itemQuantity {
+  margin: 0;
+  font-size: 0.75rem;
+  color: rgb(193, 193, 193);
+  font-weight: 500;
+}
+
+.itemPrice {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.subtotal {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+.orderNotes {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.625rem;
+  background-color: #fff3cd;
+  color: #856404;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  margin-bottom: 0.875rem;
+  border: 1px solid #ffeaa7;
+  line-height: 1.5;
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+    stroke-width: 2.5;
+  }
+
+  span {
+    flex: 1;
+    font-weight: 500;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+}
+
+.orderFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 2px solid var(--border-color);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.totalLabel {
+  color: var(--order-primary);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.totalAmount {
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: var(--order-amountColor);
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+
+  .emptyIcon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+  }
+
+  h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+  }
+
+  p {
+    margin: 0 0 1.5rem 0;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+}
+
+.startShoppingButton {
+  padding: 0.875rem 1.75rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.desktopError {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--body-bg);
+  padding: 2rem;
+}
+
+.errorContent {
+  text-align: center;
+  max-width: 500px;
+
+  h1 {
+    margin: 1.5rem 0 1rem 0;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+  }
+
+  p {
+    margin: 0 0 2rem 0;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-weight: 500;
+  }
+}
+
+.errorIcon {
+  width: 80px;
+  height: 80px;
+  color: var(--text-secondary);
+  opacity: 0.5;
+  stroke-width: 1.5;
+}
+
+.backButton {
+  padding: 0.875rem 1.75rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+[data-theme='dark'] {
+  .orderNotes {
+    background-color: rgba(255, 193, 7, 0.12);
+    color: #ffc107;
+    border-color: rgba(255, 193, 7, 0.25);
+  }
+
+  .schoolStatus,
+  .orderCard {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.backButton:focus-visible,
+.startShoppingButton:focus-visible,
+.refreshBtn:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.orderCard {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.headerLeft {
+  flex: 1;
+}
+
+.clearAllBtn {
+  background: rgba(220, 53, 69, 0.1);
+  border: none;
+  padding: 0.625rem 1rem;
+  border-radius: 0.5rem;
+  color: #dc3545;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  
+  svg {
+    width: 1.125rem;
+    height: 1.125rem;
+    stroke-width: 2;
+  }
+  
+  &:hover {
+    background: rgba(220, 53, 69, 0.2);
+    transform: translateY(-1px);
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.orderHeaderActions {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.deleteOrderBtn {
+  background: rgba(220, 53, 69, 0.1);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  
+  svg {
+    width: 1.125rem;
+    height: 1.125rem;
+    color: #b61f2e;
+    stroke-width: 2;
+  }
+  
+  &:hover {
+    background: rgba(220, 53, 69, 0.2);
+    transform: scale(1.05);
+  }
+  
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.modalContent {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  max-width: 26rem;
+  width: 100%;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  animation: modalSlideIn 0.2s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-1rem) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modalHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+  margin-bottom: 1.25rem;
+  
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-align: center;
+  }
+}
+
+.modalIconWrapper {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgba(220, 53, 69, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    color: #dc3545;
+    stroke-width: 2;
+  }
+}
+
+.modalMessage {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 0 1.25rem 0;
+}
+
+.modalActions {
+  display: flex;
+  gap: 0.625rem;
+  
+  button {
+    flex: 1;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.modalCancelBtn {
+  background: #f3f4f6;
+  color: #374151;
+  
+  &:hover:not(:disabled) {
+    background: #e5e7eb;
+  }
+}
+
+.modalConfirmBtn {
+  background: #dc3545;
+  color: white;
+  
+  &:hover:not(:disabled) {
+    background: #c82333;
+  }
+}
+
+.buttonSpinner {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 400px) {
+  .modalContent {
+    padding: 1.25rem;
+  }
+  
+  .modalActions {
+    flex-direction: column;
+    
+    button {
+      width: 100%;
+    }
+  }
+  
+  .clearAllBtn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8125rem;
+    
+    svg {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}

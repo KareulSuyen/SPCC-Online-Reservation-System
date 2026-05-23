@@ -1,0 +1,1821 @@
+# Offensive Words List for SPCC Name Validation System
+# Format: One word per line, case-insensitive matching
+# Focus: Comprehensive Filipino/Tagalog profanity with English variants
+
+# ============================================================================
+# FILIPINO/TAGALOG PROFANITY - CORE WORDS
+# ============================================================================
+
+# Gago family (stupid/idiot)
+gago
+gaga
+gagong
+gaguhan
+kagaguhan
+gaguhan
+gagawin
+gagi
+gaga ka
+gagong bata
+tangagago
+gago ka
+kagaguhan mo
+
+# Putang family (prostitute/whore - strongest Filipino curse)
+putang
+putangina
+putanginamo
+tangina
+tanginamo
+inangina
+inamo
+puta
+putas
+putang ina
+putang ina mo
+tangina mo
+tang ina
+tang ina mo
+inang
+punyeta
+punyemas
+puking ina
+pukingina
+pokpok
+pokpoks
+
+# Bobo family (dumb/stupid)
+bobo
+bobos
+bobong
+boboka
+bobo ka
+boba
+bobito
+bobita
+bobohin
+kababohan
+
+# Tanga family (stupid/dumb)
+tanga
+tangas
+tangina
+tange
+tangang
+tangahan
+katangahan
+tanga ka
+tangalog
+tanga mo
+kabobohan
+
+# Ulol/Siraulo family (crazy/insane)
+ulol
+ulul
+ulols
+siraulo
+siraulos
+siraan
+ulol ka
+sira ulo
+siraulong
+ulolang
+
+# Kupal/Tarantado family (asshole/jerk)
+kupal
+kupals
+kupalpak
+kupal ka
+tarantado
+tarantada
+tarantados
+tarantadong
+tado
+tadong
+
+# Sexual organs (Tagalog)
+tite
+titi
+titoy
+titeng
+puke
+puki
+pukeng
+pekpek
+pepek
+bilat
+bilatoy
+burat
+burat mo
+bayag
+betlog
+itlog
+etits
+itits
+utong
+utot
+tamod
+talong
+suso
+susu
+
+# Sexual acts (Tagalog)
+kantot
+kantutan
+kantotan
+kinantot
+kantot ka
+kantot mo
+jakol
+jakolero
+jakolandia
+jakolin
+salsal
+chupa
+tsupa
+supsupin
+supsop
+dilaan
+kain
+kainin
+
+# Animal insults
+hayop
+hayup
+hayupak
+hinayupak
+hayop ka
+animal ka
+walangya
+walanghiya
+walang hiya
+
+# Leche family (damn/curse)
+leche
+lecheng
+lechegas
+letse
+letseng
+leche ka
+
+# Peste family (pest/annoying)
+peste
+pesteng
+pesteng yawa
+
+# Yawa family (Bisaya devil/demon)
+yawa
+yawang
+yawain
+yawaa
+
+# Amputa/Pakshet variations
+amputa
+amputang
+amputa ka
+pakshet
+pakshit
+pakshet ka
+
+# Buwisit family (annoying/irritating)
+buwisit
+buwiset
+bwiset
+bwisit ka
+nakakabwisit
+
+# Inutil family (useless)
+inutil
+inutile
+inot
+walang kwenta
+walang silbi
+
+# Other Tagalog slurs
+engot
+engots
+ungas
+ugok
+giatay
+mokong
+monggol
+hangal
+gunggong
+gungong
+epal
+epalin
+olol
+hudas
+lintik
+lintek
+hugas
+sinto
+kulangot
+pakyu
+pakyou
+hindot
+susmaryosep
+bruha
+bruja
+demonyo
+diablo
+impakto
+bastos
+malaswa
+laswa
+libog
+libogan
+kabastusan
+
+# Body parts/sexual (Tagalog)
+pwet
+puwet
+pwetan
+tumbong
+pekpek
+pepek
+tumbong
+
+# ============================================================================
+# BISAYA/CEBUANO PROFANITY
+# ============================================================================
+yawa
+yawaa
+yawa ka
+atay
+bilat
+bilat nimo
+buang
+buanga
+buang ka
+pisti
+pisteng
+lami
+lamian
+limbong
+lintik
+lintek
+kayata
+giatay
+
+# ============================================================================
+# ILOCANO PROFANITY
+# ============================================================================
+agi
+agim
+bagtit
+ukinnam
+ukininam
+ukinnam nga
+
+# ============================================================================
+# ENGLISH PROFANITY - CORE WORDS
+# ============================================================================
+
+# Fuck family
+fuck
+fucking
+fucker
+fucked
+fucks
+motherfucker
+motherfucking
+muthafucka
+mofo
+fuk
+fck
+fvck
+phuck
+fuking
+fukking
+fuk off
+fuck off
+fuck you
+fuckin
+fkin
+fkn
+
+# Shit family
+shit
+shits
+shitty
+shitting
+bullshit
+horseshit
+dipshit
+shite
+sht
+sh1t
+shyt
+
+# Bitch family
+bitch
+bitches
+bitching
+bitchy
+biatch
+biotch
+btch
+b1tch
+beetch
+
+# Ass family
+ass
+asses
+asshole
+assholes
+arsehole
+arse
+asshat
+asswipe
+assclown
+assh0le
+a55
+a55hole
+azz
+
+# Dick/Penis family
+dick
+dicks
+dickhead
+dickface
+dicktard
+dck
+d1ck
+dik
+dikhed
+penis
+penises
+
+# Pussy/Vagina family
+pussy
+pussies
+pussys
+pvssy
+vagina
+vaginas
+cnt
+cunt
+cunts
+
+# Cock family
+cock
+cocks
+c0ck
+
+# Other strong profanity
+bastard
+bastards
+bstard
+whore
+whores
+slut
+sluts
+slutty
+sluttier
+hoe
+hoes
+hooker
+prick
+pricks
+prik
+douche
+douchebag
+douchecanoe
+jackass
+jackasses
+dumbass
+dumbfuck
+shithead
+shitstain
+dickwad
+dickweed
+scumbag
+numbnuts
+fucktard
+shitface
+
+# ============================================================================
+# SEXUAL/EXPLICIT CONTENT
+# ============================================================================
+sexy
+sexier
+sexiest
+sexi
+seductive
+horny
+horniest
+porn
+porno
+pornhub
+xvideos
+pornstar
+sex
+sexual
+sexually
+nude
+nudes
+naked
+nakedness
+dildo
+dildos
+vibrator
+vibrators
+blowjob
+blowjobs
+handjob
+handjobs
+cumshot
+cumshots
+orgasm
+orgasms
+masturbate
+masturbating
+masturbation
+masterbate
+erotic
+erotica
+boobs
+boobies
+boob
+tits
+titties
+tities
+nipple
+nipples
+thicc
+nsfw
+xxx
+anal
+anus
+boner
+erection
+kinky
+penetration
+pervert
+perverts
+rape
+raping
+rapist
+raper
+intercourse
+threesome
+topless
+
+# ============================================================================
+# HATE SPEECH & SLURS
+# ============================================================================
+nigger
+niggers
+nigga
+niggas
+negro
+negroes
+chink
+chinks
+fag
+faggot
+faggots
+faggy
+fgt
+fggt
+homo
+homos
+dyke
+dykes
+kike
+kikes
+spic
+spics
+wetback
+raghead
+towelhead
+gook
+gooks
+
+# ============================================================================
+# COMMON LEETSPEAK/EVASION PATTERNS
+# ============================================================================
+fvck
+fck
+fcuk
+sh1t
+sht
+b1tch
+btch
+a55
+a55hole
+d1ck
+dck
+pvssy
+c0ck
+dmn
+h3ll
+pr0n
+s3x
+s3xy
+fvk
+phuk
+
+# ============================================================================
+# ADDITIONAL TAGALOG VARIATIONS & COMBINATIONS
+# ============================================================================
+
+# Gago combinations
+gago amputa
+gago ka talaga
+kagaguhan mo
+gago putangina
+tangagago
+
+# Putangina combinations
+putangina mo
+tangina naman
+putang ina nyo
+punyeta ka
+puta ka
+
+# Bobo combinations
+bobo amputa
+bobo mo
+bobo ka talaga
+bobong tao
+
+# Tanga combinations
+tanga amputa
+tanga mo
+tanga ka talaga
+
+# Insult combinations
+gago ulol
+bobo tanga
+kupal ka
+tarantado ka
+hayop ka talaga
+walang hiya ka
+bastos ka
+malaswa ka
+
+# Creative Filipino profanity
+pakyu ka
+pakyuhin
+leche flan
+pucha
+pota
+potangina
+tanginang yan
+kinangina
+pakingshet
+kingina
+peste ka
+yawa mo
+bruha ka
+demonyo ka
+
+# More variations
+gagamboy
+bobomachine
+tangalog republic
+kupalord
+tarantadong tao
+ululating
+siraulong tao
+
+# Body part variations (more explicit)
+titing malaki
+pekeng puke
+burat mong
+bayag mo
+betlog mong
+etits mo
+
+# Sexual act variations
+jakol king
+kantot queen
+chupa king
+tsupa queen
+
+# Regional variations
+yudiputa
+yudeputa
+yawa bisaya
+buanga bisaya
+pesteng bisaya
+
+# Compound insults
+gago bobo
+tanga ulol
+kupal tarantado
+putang gago
+tangang bobo
+bobong ulol
+
+# Modern slang profanity
+jejemon
+jejemons
+squatter
+squammy
+squammy tao
+
+# ============================================================================
+# ADDITIONAL FILIPINO SLANG PROFANITY
+# ============================================================================
+walanghiya
+walang modo
+bastusin
+kabastusan
+kalibugan
+libog libog
+malibog
+manyak
+manyakis
+manyakol
+mahalay
+malupit
+taksil
+traydor
+hinayupak talaga
+pisting yawa
+kagaguhan nyo
+kalokohang
+gunggong talaga
+hangal na tao
+bobong animal
+
+# More explicit Tagalog
+dilaan mo
+susuhin
+kainin mo
+supsupin mo
+jakolandia
+kantutan party
+chupaan
+salsalan
+
+# Stronger combinations
+putanginang yan
+tanginang buhay
+leche flan ka
+pesteng yawa ka
+amputa naman
+pakshet na yan
+bwisit na yan
+
+# Old Tagalog profanity
+susmaryosep
+sustmariosep
+namamatay
+demonyong tao
+yawa devil
+
+# Body shaming (Filipino)
+taba
+mataba ka
+payat
+baboy
+pandak
+itim
+baluga
+panget
+mukha kang
+mukha mong
+
+# Character attacks (Filipino)
+sinungaling
+peke
+plastic
+traydor
+taksil
+salbahe
+masamang tao
+walang utang loob
+
+# Additional sexual (Filipino)
+pokpok ka
+puta ka talaga
+kabit
+kerida
+kabet
+puta puta
+shibal
+
+# Offensive Words List for SPCC Name Validation System
+# Comprehensive Filipino-focused profanity list with ~1000+ words
+# Format: One word per line, case-insensitive matching
+
+# ============================================================================
+# FILIPINO/TAGALOG PROFANITY - EXTENDED
+# ============================================================================
+
+# Gago family (stupid/idiot) - all variations
+gago
+gaga
+gagong
+gaguhan
+kagaguhan
+gagawin
+gagi
+gagamboy
+gagamit
+gaganda
+gagangster
+gaganyan
+gagamitin
+gago ka
+gaga ka
+gagong bata
+tangagago
+gago mo
+gaga mo
+gaguhan mo
+kagaguhan mo
+kagaguhan nyo
+pagagawa
+paggagago
+ginagago
+ginagawa
+nagagago
+kinagagago
+pinaggagago
+bobogago
+tangagagong
+
+# Putang family (prostitute/whore) - most offensive
+putang
+putangina
+putanginamo
+tangina
+tanginamo
+inangina
+inamo
+puta
+putas
+putang ina
+putang ina mo
+tangina mo
+tang ina
+tang ina mo
+inang
+punyeta
+punyemas
+punyetang
+puking ina
+pukingina
+pokpok
+pokpoks
+pokpokan
+putahan
+putanginang
+tanginang
+pukinangina
+putang gago
+putang bobo
+putang tanga
+putang yawa
+putang inamo
+tanginang buhay
+tanginang yan
+kinangina
+kinangina mo
+panginoon
+punyeta ka
+punyemas ka
+putang amputa
+amputa tangina
+pucha
+puchas
+pota
+potas
+potang
+potangina
+putik
+putakte
+putakte ka
+putakting
+putakte naman
+
+# Bobo family (dumb/stupid)
+bobo
+bobos
+bobong
+boboka
+bobo ka
+boba
+bobito
+bobita
+bobohin
+kababohan
+bobomachine
+bobolistic
+bobotante
+bobong tao
+bobo gago
+bobo amputa
+bobo mo
+bobo ka talaga
+bobong animal
+kabobong
+pagbobobo
+pagiging bobo
+bobohan
+bobong pag
+mga bobo
+
+# Tanga family (stupid/dumb)
+tanga
+tangas
+tangina
+tange
+tangang
+tangahan
+katangahan
+tanga ka
+tangalog
+tanga mo
+kabobohan
+tangang tao
+tanga amputa
+tanga mo talaga
+tanga ka talaga
+tangang bata
+tangang gago
+pagkatanga
+pagtangahan
+nagtanga
+natanga
+kinatangahan
+pinagtangahan
+tangalog republic
+tangang yan
+tange mo
+tangahin
+kinatangahan mo
+
+# Ulol/Siraulo family (crazy/insane)
+ulol
+ulul
+ulols
+siraulo
+siraulos
+siraan
+ulol ka
+sira ulo
+siraulong
+ulolang
+ulol mo
+ululin
+ululating
+sira ang ulo
+sirang ulo
+siraan mo
+siraulong tao
+ulol amputa
+ulol gago
+ulol ka talaga
+siraulo ka
+sira ka
+sirang tao
+pagsiraan
+nagsiraan
+kinasiraan
+ululating fool
+
+# Kupal/Tarantado family (asshole/jerk)
+kupal
+kupals
+kupalpak
+kupal ka
+kupalord
+kupality
+tarantado
+tarantada
+tarantados
+tarantadong
+tado
+tadong
+tarantado ka
+tarantadong tao
+tarantado gago
+tarantado ka talaga
+tarantada ka
+kupaling
+kupalin
+kinupal
+pagkupal
+pagkakarantado
+nagtarantado
+tarantaduhan
+kupalan
+kupal amputa
+
+# Sexual organs (Tagalog) - explicit
+tite
+titi
+titoy
+titeng
+titing
+titing malaki
+titing maliit
+puke
+puki
+pukeng
+pekpek
+pepek
+pepeng
+bilat
+bilatoy
+bilat mo
+bilat nyo
+burat
+burat mo
+buratong
+bayag
+bayag mo
+betlog
+betlog mo
+itlog
+etits
+etits mo
+itits
+utong
+utong mo
+utot
+tamod
+tamod mo
+talong
+talungan
+suso
+susu
+susong
+dede
+pusoy
+puson
+boto
+buto
+
+# Sexual acts (Tagalog) - explicit
+kantot
+kantutan
+kantotan
+kinantot
+kantot ka
+kantot mo
+kantot queen
+kantot king
+kantutan party
+kantot galore
+jakol
+jakolero
+jakolandia
+jakolin
+jakol king
+jakol mo
+jakolero ka
+salsal
+salsalan
+salsalin
+chupa
+tsupa
+supsupin
+supsop
+dilaan
+dilaan mo
+kain
+kainin
+kainin mo
+kumain ka
+chupaan
+tsupaan
+supsupan
+supsupin mo
+jakol jakol
+salsal salsal
+kantot kantot
+kinantot ka
+kantot ka talaga
+
+# Animal insults
+hayop
+hayup
+hayupak
+hinayupak
+hayop ka
+hayop ka talaga
+animal
+animal ka
+animal na tao
+hayupang tao
+walangya
+walanghiya
+walang hiya
+walang hiya ka
+walang modo
+walang galang
+walang respeto
+walang utang loob
+walang kwenta
+walang silbi
+walang laman
+walang utak
+
+# Leche family (damn/curse)
+leche
+lecheng
+lechegas
+letse
+letseng
+leche ka
+leche flan
+leche flan ka
+lecheng buhay
+lecheng tao
+letse ka
+letseng buhay
+nakakaleche
+pagkaleche
+
+# Peste family (pest/annoying)
+peste
+pesteng
+peste ka
+pesteng yawa
+pesteng bata
+pesteng tao
+nakakpeste
+pagkapeste
+
+# Yawa family (Bisaya devil/demon)
+yawa
+yawang
+yawain
+yawaa
+yawa ka
+yawa mo
+yawa bisaya
+pesteng yawa
+putang yawa
+yawa devil
+kayawaan
+
+# Amputa/Pakshet variations
+amputa
+amputang
+amputa ka
+amputa naman
+amputa talaga
+pakshet
+pakshit
+pakshet ka
+pakshet naman
+pakingshet
+kingina
+pakyu
+pakyou
+pakyu ka
+pakyuhin
+pakyuhin mo
+
+# Buwisit family (annoying/irritating)
+buwisit
+buwiset
+bwiset
+bwisit
+bwisit ka
+nakakabwisit
+nakakabwiset
+buwisit na
+bwisit na yan
+kabwisitan
+pagkabwisit
+bwiset na buhay
+
+# Inutil family (useless)
+inutil
+inutile
+inot
+walang kwenta
+walang silbi
+inutilidad
+inutiling
+pagka inutil
+
+# Other Tagalog slurs
+engot
+engots
+engot ka
+ungas
+ungas ka
+ugok
+ugok ka
+giatay
+giatay ka
+mokong
+mokong ka
+monggol
+monggol ka
+hangal
+hangal ka
+gunggong
+gungong
+gunggong ka
+gungong ka
+epal
+epalin
+epal ka
+olol
+olol ka
+hudas
+hudas ka
+lintik
+lintek
+lintik ka
+lintek ka
+hugas
+hugas ka
+sinto
+sinto ka
+kulangot
+kulangot ka
+hindot
+hindot ka
+susmaryosep
+susmariosep
+bruha
+bruha ka
+bruja
+demonyo
+demonyo ka
+diablo
+diablo ka
+impakto
+impakto ka
+bastos
+bastos ka
+malaswa
+laswa
+laswa ka
+libog
+libogan
+malibog
+mahalay
+kabastusan
+kalibugan
+
+# Body parts/sexual (Tagalog)
+pwet
+puwet
+pwetan
+pwet mo
+tumbong
+tumbong mo
+pekpek mo
+pepek mo
+
+# More explicit combinations
+titing kalbo
+titing kulubot
+puke mong
+puki mo
+bilat mong
+burat mong maliit
+bayag mong
+betlog mong malaki
+etits mong
+utong mong
+
+# ============================================================================
+# BISAYA/CEBUANO PROFANITY - EXTENDED
+# ============================================================================
+yawa
+yawaa
+yawa ka
+yawa mo
+atay
+atay ka
+bilat
+bilat nimo
+bilat mo
+buang
+buanga
+buang ka
+buang kaayo
+pisti
+pisteng
+pisting
+pisting yawa
+lami
+lamian
+lami kaayo
+limbong
+limbong ka
+lintik
+lintek
+lintik ka
+kayata
+kayata ka
+giatay
+giatay ka
+yudiputa
+yudeputa
+piste ka
+bugo
+bugo ka
+bogo
+bogo ka
+ulahi
+yati
+
+# ============================================================================
+# ILOCANO PROFANITY - EXTENDED
+# ============================================================================
+agi
+agim
+agi ka
+bagtit
+bagtit ka
+ukinnam
+ukininam
+ukinnam nga
+ukinam
+ukininam mo
+
+# ============================================================================
+# ENGLISH PROFANITY - COMPREHENSIVE
+# ============================================================================
+
+# Fuck family - all variations
+fuck
+fucking
+fucker
+fucked
+fucks
+fuk
+fck
+fvck
+phuck
+fuking
+fukking
+fuk off
+fuck off
+fuck you
+fuckin
+fkin
+fkn
+motherfucker
+motherfucking
+muthafucka
+mofo
+mother fucker
+motherf
+mfer
+mothafucka
+mothafucker
+fuckface
+fuckhead
+fuckwit
+fuckstick
+fuckboy
+fuckboi
+fucktard
+fuckery
+fuckeries
+clusterfuck
+mindfuck
+buttfuck
+fucked up
+fucking hell
+what the fuck
+wtf
+
+# Shit family - all variations
+shit
+shits
+shitty
+shitting
+bullshit
+horseshit
+dipshit
+shite
+sht
+sh1t
+shyt
+shitstorm
+shitface
+shithead
+shitstain
+shithole
+shitshow
+shitter
+shitbag
+batshit
+apeshit
+piece of shit
+holy shit
+oh shit
+
+# Bitch family - all variations
+bitch
+bitches
+bitching
+bitchy
+biatch
+biotch
+btch
+b1tch
+beetch
+son of a bitch
+bitchass
+bitchface
+basicbitch
+basic bitch
+bitchmade
+lil bitch
+little bitch
+whiny bitch
+
+# Ass family - all variations
+ass
+asses
+asshole
+assholes
+arsehole
+arse
+asshat
+asswipe
+assclown
+assh0le
+a55
+a55hole
+azz
+assface
+assfuck
+asswad
+badass
+dumbass
+fatass
+jackass
+smartass
+kickass
+kissass
+ass kisser
+asshat
+piece of ass
+
+# Dick/Penis family
+dick
+dicks
+dickhead
+dickface
+dicktard
+dck
+d1ck
+dik
+dikhed
+penis
+penises
+penile
+dickwad
+dickweed
+dickless
+dickbag
+dickweasel
+dickbreath
+
+# Pussy/Vagina family
+pussy
+pussies
+pussys
+pvssy
+vagina
+vaginas
+cnt
+cunt
+cunts
+cuntface
+cuntbag
+
+# Cock family
+cock
+cocks
+c0ck
+cockhead
+cocksucker
+cocksucking
+cocky
+
+# Other strong profanity
+bastard
+bastards
+bstard
+whore
+whores
+slut
+sluts
+slutty
+sluttier
+hoe
+hoes
+hooker
+hookers
+prostitute
+prostitutes
+prick
+pricks
+prik
+douche
+douchebag
+douchecanoe
+douchebucket
+jackass
+jackasses
+dumbass
+dumbfuck
+shithead
+shitstain
+dickwad
+dickweed
+scumbag
+numbnuts
+fucktard
+shitface
+twat
+twats
+wanker
+wankers
+wank
+tosser
+git
+bollocks
+bugger
+arsehole
+bellend
+
+# Additional vulgar terms
+chode
+gooch
+taint
+scrote
+scrotum
+smegma
+queef
+felch
+rimjob
+teabag
+teabagging
+
+# ============================================================================
+# SEXUAL/EXPLICIT CONTENT - EXPANDED
+# ============================================================================
+sexy
+sexier
+sexiest
+sexi
+seductive
+horny
+horniest
+porn
+porno
+pornhub
+xvideos
+pornstar
+pornographic
+sex
+sexual
+sexually
+sexuality
+sexting
+nude
+nudes
+naked
+nakedness
+strip
+stripper
+stripping
+dildo
+dildos
+vibrator
+vibrators
+blowjob
+blowjobs
+handjob
+handjobs
+cumshot
+cumshots
+orgasm
+orgasms
+masturbate
+masturbating
+masturbation
+masterbate
+erotic
+erotica
+boobs
+boobies
+boob
+tits
+titties
+tities
+breast
+breasts
+nipple
+nipples
+butt
+butts
+booty
+booties
+thicc
+nsfw
+xxx
+anal
+anus
+boner
+erection
+kinky
+penetration
+pervert
+perverts
+perverted
+rape
+raping
+rapist
+raper
+intercourse
+threesome
+topless
+bottomless
+gangbang
+orgy
+orgies
+69
+sixtynine
+doggy
+doggystyle
+missionary
+cowgirl
+reverse cowgirl
+facial
+creampie
+bukkake
+sloppy seconds
+fetish
+bdsm
+bondage
+dominatrix
+submissive
+sadism
+masochism
+voyeur
+exhibitionist
+peeping
+molest
+molesting
+molester
+pedophile
+pedophiles
+pedo
+pedos
+incest
+incestuous
+
+# ============================================================================
+# HATE SPEECH & SLURS - COMPREHENSIVE
+# ============================================================================
+nigger
+niggers
+nigga
+niggas
+negro
+negroes
+chink
+chinks
+chingchong
+ching chong
+fag
+faggot
+faggots
+faggy
+fgt
+fggt
+homo
+homos
+homosexual
+dyke
+dykes
+tranny
+trannies
+shemale
+kike
+kikes
+spic
+spics
+beaner
+wetback
+raghead
+towelhead
+gook
+gooks
+jap
+japs
+zipperhead
+cracker
+crackers
+honkey
+honky
+whitey
+redneck
+
+# ============================================================================
+# LEETSPEAK/EVASION PATTERNS - COMPREHENSIVE
+# ============================================================================
+fvck
+fck
+fcuk
+sh1t
+sht
+b1tch
+btch
+a55
+a55hole
+d1ck
+dck
+pvssy
+c0ck
+dmn
+h3ll
+pr0n
+s3x
+s3xy
+fvk
+phuk
+fook
+fawk
+fuq
+shiet
+shieet
+biatch
+biotch
+azz
+asz
+azzhole
+dikk
+dik
+puss
+pusi
+cok
+cox
+
+# ============================================================================
+# FILIPINO COMBINATIONS & MODERN SLANG
+# ============================================================================
+
+# Triple combinations
+gago bobo tanga
+putang gago ka
+tangina bobo mo
+amputa gago ka
+ulol tanga ka
+kupal ka talaga
+tarantado gago ka
+
+# With intensifiers
+gago ka talaga
+putangina mo talaga
+bobo mo naman
+tanga ka naman
+ulol ka talaga
+gago amputa ka
+putang gago amputa
+
+# Modern Filipino slang profanity
+jejemon
+jejemons
+jejemonic
+squatter
+squammy
+squammy tao
+conyo
+feeling conyo
+mayabang
+hambog
+feeling pretty
+feeling gwapo
+feeling maganda
+echosero
+echosera
+plastik
+plastic
+fake
+kaplastikan
+maarte
+papansin
+ksp
+kulang sa pansin
+feelingero
+feelingnera
+
+# Social media slang profanity
+patola
+patulan
+patay gutom
+buraot
+mukhang pera
+makapal ang mukha
+walang hiya sa mukha
+kapal ng mukha
+balat sibuyas
+
+# Character attacks
+sinungaling
+peke
+traydor
+taksil
+salbahe
+masamang tao
+masama ang loob
+sutil
+manloloko
+mandaraya
+mabangis
+malupit
+brutal
+mabaho
+maduming tao
+
+# Body shaming (Filipino)
+taba
+mataba
+baboy
+payat
+buto balat
+pandak
+tangkad
+itim
+kayumanggi
+baluga
+panget
+mukha kang
+mukha mong
+mukha ng
+baho
+mabaho
+madumi
+marumi
+
+# Relationship slurs (Filipino)
+pokpok ka
+puta ka talaga
+kabit
+kerida
+kabet
+babae
+lalaki
+tomboy
+bakla
+bayot
+bading
+bakla ka
+bayot ka
+bading ka
+
+# Regional variations
+bisaya ka
+ilocano ka
+bicolano ka
+waray ka
+probinsyano
+promdi
+taga bukid
+squatter mentality
+
+# Additional modern combinations
+gago si
+tanga naman si
+bobo naman
+kupal talaga si
+tarantado si
+ulol si
+amputa si
+tangina nito
+tangina nyan
+leche nito
+peste nito
+bwisit to
+bwisit yan
+
+# Dismissive insults
+wala kang kwenta
+hindi ka mahalaga
+basura ka
+dumi ka
+tae ka
+hampaslupa
+walang pinag aralan
+mangmang
+ignorante
+tanga tanga
+bobo bobo
+gago gago
+abnoy
+abnoy ka
+anormal ka!
+antanga mo

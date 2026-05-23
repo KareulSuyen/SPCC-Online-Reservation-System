@@ -1,0 +1,23 @@
+{
+  "name": "SPCC - Online Reservation System",
+  "short_name": "SPCC ORS",
+  "description": "An online reservation system for school supplies at SPCC Caloocan.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/spcc-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/spcc-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

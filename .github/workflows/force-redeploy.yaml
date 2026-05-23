@@ -1,0 +1,48 @@
+name: Server Auto-Restart
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check-and-restart:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check if server is responding
+        id: health_check
+        run: |
+          echo "Checking server health..."
+          
+          # Try to ping server with 60 second timeout (allows cold start)
+          response_code=$(curl -s -o /dev/null -w "%{http_code}" \
+            --max-time 60 \
+            https://spccors.onrender.com/api/auth/heartbeat/ || echo "timeout")
+          
+          echo "Response: $response_code"
+          
+          if [ "$response_code" = "200" ]; then
+            echo "Server is healthy!"
+            echo "status=healthy" >> $GITHUB_OUTPUT
+          else
+            echo "Server is down or unresponsive (code: $response_code)"
+            echo "status=down" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Trigger Render Redeploy
+        if: steps.health_check.outputs.status == 'down'
+        env:
+          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+        run: |
+          echo "Server is down! Triggering redeploy..."
+          
+          curl -X POST "$RENDER_DEPLOY_HOOK"
+          
+          echo "Redeploy triggered! Server should be back up in 2-5 minutes"
+      
+      - name: Skip Redeploy (Server is Healthy)
+        if: steps.health_check.outputs.status == 'healthy'
+        run: |
+          echo "Server is healthy - no redeploy needed!"
+

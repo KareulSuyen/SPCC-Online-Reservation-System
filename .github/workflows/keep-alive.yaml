@@ -1,0 +1,55 @@
+name: Keep Render Service Alive
+
+on:
+  schedule:
+    - cron: '*/12 * * * *'
+  workflow_dispatch: 
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Ping Keep-Alive Endpoint
+        run: |
+          echo "Pinging SPCC ORS Backend..."
+          echo "Time: $(date)"
+          
+          response=$(curl -s -w "\n%{http_code}" -X POST \
+            https://spccors.onrender.com/api/auth/keep-alive-login/ \
+            -H "Content-Type: application/json" \
+            -d '{"email":"${{ secrets.KEEP_ALIVE_EMAIL }}","password":"${{ secrets.KEEP_ALIVE_PASSWORD }}"}')
+          
+          http_code=$(echo "$response" | tail -n1)
+          
+          body=$(echo "$response" | sed '$d')
+          
+          echo "Response Status: $http_code"
+          echo "Response Body: $body"
+          
+          if [ "$http_code" -eq 200 ]; then
+            echo "Keep-alive ping successful!"
+          else
+            echo "Keep-alive ping failed with status $http_code"
+            echo "Response: $body"
+            exit 1
+          fi
+      
+      - name: Ping Heartbeat Endpoint
+        run: |
+          echo "Checking..."
+          
+          response=$(curl -s -w "\n%{http_code}" \
+            https://spccors.onrender.com/api/auth/heartbeat/)
+          
+          http_code=$(echo "$response" | tail -n1)
+          body=$(echo "$response" | sed '$d')
+          
+          echo "Heartbeat Status: $http_code"
+          echo "Heartbeat Response: $body"
+          
+          if [ "$http_code" -eq 200 ]; then
+            echo "Heartbeat check successful!"
+          else
+            echo "Heartbeat check failed with status $http_code"
+          fi
