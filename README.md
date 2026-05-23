@@ -1,26 +1,21 @@
-## Capstone year 2025-2026
-
-Systems Plus Computer College School supplies online reservation system
+# Capstone year 2025-2026
+## Systems Plus Computer College School supplies online reservation system
 
 ## Get started
-### Clone the repository 
-git clone https://github.com/KareulSuyen/SPCC-Online-Reservation-System
-### Navigate to root/backend
+### Clone the repository
+#### git clone https://github.com/KareulSuyen/SPCC-Online-Reservation-System
 
-### Language 
-Javascript and Python
+##### Navigate to root/backend
 
-### Libraries 
-React
+## Technologies used
 
-### Framework
-Django
+![JavaScript](https://shields.io)
+![Python](https://shields.io)
+![SQLite](https://shields.io)
+![React](https://shields.io)
+![Django](https://shields.io)
+![HTML5](https://shields.io)
+![Sass/SCSS](https://shields.io)
 
-### Database
-Posgres for prod, SQLite for local
-
-### Others
-Html and Scss
-
-## Notes
-This project is completed but 
+Notes
+This project is completed but
