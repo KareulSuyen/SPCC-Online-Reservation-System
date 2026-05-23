@@ -24,3 +24,15 @@ Follow these steps to clone the repository and run it locally.
 ```bash
 git clone [https://github.com/KareulSuyen/SPCC-Online-Reservation-System](https://github.com/KareulSuyen/SPCC-Online-Reservation-System)
 cd SPCC-Online-Reservation-System
+```
+
+### 2. Run the project
+```bash
+cd backend
+pip3 install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+cd frontend
+npm run dev
+```
