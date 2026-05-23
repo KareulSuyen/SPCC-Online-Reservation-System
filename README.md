@@ -2,7 +2,7 @@
 
 A full-stack capstone project designed to automate the process of reserving school supplies online for Systems plus computer college. 
 
-> **Status:** This project is completed but no longer maintained.
+> **Status:** This project is completed but no longer maintained, so the project link might have a cold start before running.
 
 ---
 
