@@ -8,14 +8,10 @@
 ##### Navigate to root/backend
 
 ## Technologies used
-
-![JavaScript](https://shields.io)
-![Python](https://shields.io)
-![SQLite](https://shields.io)
-![React](https://shields.io)
-![Django](https://shields.io)
-![HTML5](https://shields.io)
-![Sass/SCSS](https://shields.io)
-
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,javascript,html,css,git,postgresql" />
+  </a>
+</p>
 Notes
 This project is completed but
