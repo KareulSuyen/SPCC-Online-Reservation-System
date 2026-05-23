@@ -7,7 +7,7 @@ class CustomAccountAdapter(DefaultAccountAdapter):
     
     def clean_email(self, email):
         if not email.endswith('@spcc.edu.ph'):
-            raise ValueError("Only @spcc.edu.ph email addresses are allowed.")
+            raise ValueError("Only @spcc.edu.ph emails are allowed.")
         return email
     
     def get_user_search_fields(self):
