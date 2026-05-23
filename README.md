@@ -10,7 +10,7 @@
 ## Technologies used
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=javascript, react, html, scss, git,postgresql, python, django" />
+    <img src="https://skillicons.dev/icons?i=javascript,react,html,css,git,postgresql,python,django" />
   </a>
 </p>
 Notes
