@@ -12,16 +12,14 @@ VERIFICATION_EMAIL_TEMPLATE = """
             <td align="center" style="padding: 40px 20px;">
                 <table role="presentation" style="max-width: 600px; width: 100%; border-collapse: collapse; background-color: #ffffff; border-radius: 16px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); overflow: hidden;">
                     
-                    <!-- Header with gradient -->
                     <tr>
                         <td style="background: linear-gradient(135deg, #000000 0%, #03045E 100%); padding: 40px 40px 30px; text-align: center;">
                             <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 600; letter-spacing: -0.5px;">
-                                Welcome to SPCC-ORS! 
+                                Welcome to SPCC-ORS
                             </h1>
                         </td>
                     </tr>
                     
-                    <!-- Content -->
                     <tr>
                         <td style="padding: 40px;">
                             <h2 style="margin: 0 0 16px; color: #1a1a1a; font-size: 20px; font-weight: 600;">
@@ -48,7 +46,6 @@ VERIFICATION_EMAIL_TEMPLATE = """
                         </td>
                     </tr>
                     
-                    <!-- Footer -->
                     <tr>
                         <td style="background-color: #f9fafb; padding: 32px 40px; border-top: 1px solid #e5e7eb;">
                             <p style="margin: 0 0 8px; color: #6b7280; font-size: 13px; line-height: 1.5;">
@@ -56,7 +53,7 @@ VERIFICATION_EMAIL_TEMPLATE = """
                                 If you didn't request this email, you can safely ignore it.
                             </p>
                             <p style="margin: 16px 0 0; color: #9ca3af; font-size: 12px;">
-                                © 2024 SPCC Online Reservation System. All rights reserved.
+                                © 2026 SPCC Online Reservation System. All rights reserved.
                             </p>
                         </td>
                     </tr>
@@ -129,7 +126,7 @@ PASSWORD_RESET_TEMPLATE = """
                                 If you didn't request a password reset, you can safely ignore this email. Your password will remain unchanged.
                             </p>
                             <p style="margin: 16px 0 0; color: #9ca3af; font-size: 12px;">
-                                © 2025 SPCC Online Reservation System. All rights reserved.
+                                © 2026 SPCC Online Reservation System. All rights reserved.
                             </p>
                         </td>
                     </tr>
@@ -330,7 +327,7 @@ RESERVATION_CONFIRMATION_TEMPLATE = """
                                 For questions or concerns, please contact our support team
                             </p>
                             <p style="margin: 0; color: #9ca3af; font-size: 12px;">
-                                © 2025 SPCC ORS. All rights reserved.
+                                © 2026 SPCC ORS. All rights reserved.
                             </p>
                         </td>
                     </tr>
