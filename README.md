@@ -1,33 +1,26 @@
-## Systems Plus Computer College School supplies online reservation system capstone project
+## School Supplies Online Reservation System
 
-## Get started
-### Clone the repository
-#### git clone https://github.com/KareulSuyen/SPCC-Online-Reservation-System
+A full-stack capstone project designed to automate the process of reserving school supplies online for Systems plus computer college. 
 
-#### Navigate to root/backend
+> **Status:** This project is completed but no longer maintained.
 
-#### download the django requirements 
-pip3 install -r requirements.txt
+---
 
-#### Navigate to root/frontend
-npm run dev
+## Technologies Used
 
-## Technologies used
-
-<p>
+<p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=javascript,react,html,css,git,postgresql,python,django" />
+    <img src="https://skillicons.dev/icons?i=python,django,javascript,react,postgresql,html,css,git" />
   </a>
 </p>
 
+---
 
-### Notes
+## Getting Started
 
-This project is completed but no longer maintained.
+Follow these steps to clone the repository and run it locally.
 
-#### Main links
-
-spccors.com
-
-#### Sub links
-spccors.netlify.app
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/KareulSuyen/SPCC-Online-Reservation-System](https://github.com/KareulSuyen/SPCC-Online-Reservation-System)
+cd SPCC-Online-Reservation-System
