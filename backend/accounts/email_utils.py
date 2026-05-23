@@ -14,7 +14,7 @@ PHILIPPINE_TZ = pytz.timezone('Asia/Manila')
 def send_email_via_brevo_api(to_email, subject, html_content=None, text_content=None):
     api_key = os.getenv('BREVO_API_KEY')
     if not api_key:
-        error_msg = "BREVO_API_KEY environment variable is not set!"
+        error_msg = "brevo api key environment variable isnt set!"
         logger.error(error_msg)
         return False, error_msg
     
@@ -24,7 +24,7 @@ def send_email_via_brevo_api(to_email, subject, html_content=None, text_content=
     if not html_content and text_content:
         html_content = f"<html><body><pre>{text_content}</pre></body></html>"
     elif not html_content and not text_content:
-        return False, "No email content provided"
+        return False, "No email content"
     
     url = os.getenv('EMAIL_URL')
     
@@ -72,7 +72,7 @@ def send_email_via_brevo_api(to_email, subject, html_content=None, text_content=
             return False, error_msg
             
     except requests.exceptions.Timeout:
-        error_msg = "Request timeout - Brevo API did not respond in time"
+        error_msg = "Request timeout"
         logger.error(error_msg)
         return False, error_msg
         
@@ -273,7 +273,7 @@ def send_verification_email(user, verification_link):
     
     html_content = get_email_base_template(
         content=content,
-        preheader="Verify your email to get started with SPCC ORS"
+        preheader="Verify your email to get started."
     )
     
     text_content = f"""
@@ -477,6 +477,7 @@ def send_reservation_confirmation_email(reservation):
         )
         
         text_content = f"""
+
 ORDER CONFIRMATION - SPCC ORS
 ========================================
 
