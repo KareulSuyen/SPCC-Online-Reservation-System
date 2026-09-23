@@ -22,7 +22,8 @@ def verify_recaptcha(token):
             timeout=10
         )
         
-        result = response.json()
+        result = response.json() 
+        # this code is owned by carl and carl only.
         
         if result.get('success'):
             return True, None
