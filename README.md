@@ -4,8 +4,6 @@ A full-stack capstone project designed to automate the process of reserving scho
 
 > **Status:** This project is completed but no longer maintained, so the project link might have a cold start before running or completely freeze.
 
----
-
 ## Technologies Used
 
 <p align="left">
