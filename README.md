@@ -1,4 +1,4 @@
-## School Supplies Online Reservation System
+## SPCC Supplies Online Reservation System
 
 A full-stack capstone project designed to automate the process of reserving school supplies online for Systems plus computer college. 
 
